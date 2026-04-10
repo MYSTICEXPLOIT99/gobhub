@@ -1,3 +1,11 @@
+local a=game:GetService"Players"
+local b=game:GetService"RunService"
+local c=game:GetService"ReplicatedStorage"
+local d=game:GetService"UserInputService"
+local e=game:GetService"TweenService"
+local f=game:GetService"Debris"
+local g=game:GetService"Workspace"
+local h=game:GetService"ContextActionService"
 local i=c:WaitForChild"Remotes"
 local j=require(c.Modules.Core.Util)
 local k=require(c.Modules.Game.UI.BuyPromptUI)
@@ -1588,7 +1596,7 @@ for a1,a2 in pairs(game.Players:GetPlayers()) do
 end
 
 -- =============================================
--- TAB: CHARACTER:ผู้เล่นd
+-- TAB: CHARACTER:ผู้เล่น
 -- =============================================
 local a1_tab=B:Tab{Title="CHARACTER:ผู้เล่น",Icon="user"}
 a1_tab:Section{Title="CHARACTER:"}
